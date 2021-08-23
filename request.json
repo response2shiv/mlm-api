@@ -1,0 +1,29 @@
+{
+    "TransactionType": 3,
+    "TransactionRequest": {
+        "gateway": {
+            "name": "NmiGateway",
+            "login": "loginKey",
+            "password": "passwordKey"
+        },
+        "credit_card": {
+            "number": "tokenEx",
+            "month": "expMonth",
+            "year": "expYear",
+            "verification_value": "cvv",
+            "first_name": "firstName",
+            "last_name": "lastName"
+        },
+        "transaction": {
+            "amount": "amount",
+            "currency": "currency",
+            "billing_address": {
+                "address1": "address1",
+                "city": "city",
+                "state": "state",
+                "zip": "postalCode",
+                "country": "countryCode"
+            }
+        }
+    }
+}
